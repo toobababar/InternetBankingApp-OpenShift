@@ -58,22 +58,23 @@ To run the application locally use:
    ```bash
    oc expose svc/internet-banking-api
 
-##API Endpoints
 
-###Banking Operations
-```POST /api/fund-transfer - Transfer funds between accounts
-```POST /api/online-payment - Make an online payment
-```GET /api/balance-check - Check account balance
+## API Endpoints
 
-##Contributing
+### Banking Operations
+    ```POST /api/fund-transfer - Transfer funds between accounts
+    ```POST /api/online-payment - Make an online payment
+    ```GET /api/balance-check - Check account balance
+
+## Contributing
 
 Contributions are welcome! Please create a pull request or open an issue for any suggestions or improvements.
 
-##License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 
 Flask for the web framework
 OpenShift for the deployment platform
