@@ -38,7 +38,7 @@ This is a simple API for core internet banking functionalities, designed to hand
 
 To run the application locally use:
     ```bash
-flask run
+   flask run
 
 ## Deployment on OpenShift
 
@@ -48,15 +48,15 @@ flask run
 
 2. **Create a new project**:
    ```bash
-oc new-project internet-banking
+   oc new-project internet-banking
 
 3. **Deploy the application using the Git repository**:
    ```bash
-oc new-app your-username/internet-banking-app
+   oc new-app your-username/internet-banking-app
 
 4. **Expose the service**:
    ```bash
-oc expose svc/internet-banking-api
+   oc expose svc/internet-banking-api
 
 ##API Endpoints
 
