@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Banking System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Internet Banking</h1>
+        
+        <!-- Balance Section -->
+        <div class="balance-section">
+            <h2>Account Balance</h2>
+            <span class="balance-amount"></span>
+            <button class="check-balance-btn">Check Balance</button>
+        </div>
+        
+        <!-- Forms for Transfer and Payment -->
+        <div class="form-section">
+            <!-- Transfer Funds -->
+            <div>
+                <h3>Transfer Funds</h3>
+                <input type="number" placeholder="Amount">
+                <input type="text" placeholder="Recipient Account">
+                <button class="btn">Transfer</button>
+            </div>
+            
+            <!-- Make a Payment -->
+            <div>
+                <h3>Make a Payment</h3>
+                <input type="number" placeholder="Amount">
+                <input type="text" placeholder="Merchant">
+                <button class="btn">Pay</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
