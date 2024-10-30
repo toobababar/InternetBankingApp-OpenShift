@@ -1,7 +1,7 @@
 # Internet Banking API
 
 ## Overview
-This is a simple API for core internet banking functionalities, designed to handle secure and reliable transaction processing. The purpose to create this API was to practice deploying the app using OpenShift.
+This is a simple API for core internet banking functionalities, designed to handle secure and reliable transaction processing. The purpose of creating this API was to practice deploying the app using OpenShift.
 
 ## Features
 
