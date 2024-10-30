@@ -77,5 +77,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Acknowledgments
 
 Flask for the web framework
+
 OpenShift for the deployment platform
 
