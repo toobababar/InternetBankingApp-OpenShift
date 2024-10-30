@@ -27,7 +27,7 @@ This is a simple API for core internet banking functionalities, designed to hand
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/internet-banking-app.git
-   cd internet-banking-sample
+   cd InternetBankingApp-OpenShift
 
 2. **Install dependencies:**
    ```bash
