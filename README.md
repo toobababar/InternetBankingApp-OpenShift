@@ -37,7 +37,7 @@ This is a simple API for core internet banking functionalities, designed to hand
 ### Running the application
 
 To run the application locally use:
-```bash
+
 flask run
 
 ## Deployment on OpenShift
