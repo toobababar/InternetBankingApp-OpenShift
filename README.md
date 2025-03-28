@@ -62,15 +62,16 @@ To run the application locally use:
 ## API Endpoints
 
 ### Banking Operations
-    ```
+
+    ```bash
     POST /api/fund-transfer - Transfer funds between accounts
     
     
-    ```
+    ```bash
     POST /api/online-payment - Make an online payment
     
     
-    ```
+    ```bash
     GET /api/balance-check - Check account balance
     
 
