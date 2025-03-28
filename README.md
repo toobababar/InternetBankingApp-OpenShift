@@ -62,9 +62,11 @@ To run the application locally use:
 ## API Endpoints
 
 ### Banking Operations
-    ```POST /api/fund-transfer - Transfer funds between accounts
-    ```POST /api/online-payment - Make an online payment
-    ```GET /api/balance-check - Check account balance
+    ```POST /api/fund-transfer - Transfer funds between accounts```
+    
+    ```POST /api/online-payment - Make an online payment```
+    
+    ```GET /api/balance-check - Check account balance```
 
 ## Contributing
 
